@@ -82,7 +82,7 @@ const Inside = styled.div`
     box-sizing: border-box;
     padding: 0px 15px;
     position: relative;
-    top: 5%;
+    top: -30%;
     img {
         object-fit: contain;
         border-radius: 50%;
