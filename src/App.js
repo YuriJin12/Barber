@@ -2,6 +2,8 @@ import './App.css';
 import Header from "./Components/Header";
 import WelcomeSection from "./Components/WelcomeSection"
 import BarberServices from "./Components/BarberServices"
+import OurBarbers from "./Components/OurBarbers"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -9,7 +11,8 @@ function App() {
         <Header />
         <WelcomeSection />
         <BarberServices />
-
+        <OurBarbers />
+        <Footer />
     </div>
   );
 }

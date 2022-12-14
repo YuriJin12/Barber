@@ -47,7 +47,6 @@ function BarberServices() {
 export default BarberServices
 
 const Container = styled.div`
-  height: 45rem;
   background-color: gray;
   display: flex;
   align-items: start;
