@@ -1,6 +1,7 @@
 import React from 'react'
 import "@fontsource/roboto";
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 
 function Header() {
     return (
@@ -11,10 +12,18 @@ function Header() {
                         <img src="./images/gringoicon2png.png" />
                     </div>
                     <Nav>
-                        <a>Inicio</a>
-                        <a>Quem Somos</a>
-                        <a>Galeria</a>
-                        <a>Contato</a>
+                        <Link to="/" className="link_a">
+                        Inicio
+                        </Link>
+                        <Link to="/sobre" className="link_a">
+                        Quem Somos
+                        </Link>
+                        <Link className="link_a">
+                        Galeria
+                        </Link>
+                        <Link className="link_a">
+                        Contato
+                        </Link>
                     </Nav>
                     <GetInTouch>
                         <button type="button">Get in Touch</button>
@@ -101,6 +110,7 @@ const Inside = styled.div`
         color: white;
         cursor: pointer;
         border: 1px solid transparent;
+        text-decoration: none;
     }
     a:hover {
         background-color: rgba(190, 117, 1, 0.8);

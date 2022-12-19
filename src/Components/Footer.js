@@ -7,7 +7,7 @@ function Footer() {
         <Contain>
             <p>Desenvolvido por Yuri Aime Furquim</p>
             <div>
-                <h2>Gringo Barbearia</h2>
+                <h3>Gringo Barbearia</h3>
             </div>
             <p>Contato: yurifurquimdev@gmail.com</p>
         </Contain>
@@ -41,7 +41,8 @@ const Contain = styled.div`
     div {
         border-bottom: 1px solid rgba(177,85,18,0.91);
         padding-left: 1rem;
-        h2 {
+        h3 {
+            font-size: 24px;
             color: white;
             font-family: Roboto;
             font-weight: bold;

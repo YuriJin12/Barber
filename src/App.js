@@ -1,18 +1,18 @@
 import './App.css';
-import Header from "./Components/Header";
-import WelcomeSection from "./Components/WelcomeSection"
-import BarberServices from "./Components/BarberServices"
-import OurBarbers from "./Components/OurBarbers"
-import Footer from "./Components/Footer"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home";
+import About from "./pages/About";
+
 
 function App() {
   return (
     <div className="App">
-        <Header />
-        <WelcomeSection />
-        <BarberServices />
-        <OurBarbers />
-        <Footer />
+       <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}  />
+          <Route path="/sobre" element={<About />}  />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
