@@ -23,6 +23,8 @@ const Container = styled.div`
     padding: 3rem;
     padding-top: 0;
     display: flex;
+    position: relative;
+    bottom: 0;
 `
 const Contain = styled.div`
     display: flex;

@@ -21,7 +21,7 @@ function Header() {
                         <Link className="link_a">
                         Galeria
                         </Link>
-                        <Link className="link_a">
+                        <Link className="link_a" to="/contato">
                         Contato
                         </Link>
                     </Nav>
